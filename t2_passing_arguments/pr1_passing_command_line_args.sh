@@ -11,3 +11,6 @@ echo "Argument 3: " $3
 args=("$@")
 echo "Printing the array : "
 echo ${args[0]} ${args[1]} ${args[2]}
+
+# print the number of argument
+echo "Print the number of argument passed : $#"
