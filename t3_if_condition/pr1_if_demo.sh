@@ -29,35 +29,35 @@ fi
 # TRUE && TRUE  
 if [ 8 -gt 6 ] && [ 10 -eq 10 ];  
 then  
-echo "Conditions are true"  
+    echo "Conditions are true"  
 fi  
 
 # TRUE && FALSE  
 if [ "mylife" == "mylife" ] && [ 3 -gt 10 ];  
 then  
-echo "Conditions are false"  
+    echo "Conditions are false"  
 fi  
 
 # TRUE || FALSE  
 if [ 8 -gt 7 ] || [ 10 -eq 3 ];  
 then   
-echo " Condition is true. "  
+    echo " Condition is true. "  
 fi  
   
 # FALSE || FALSE  
 if [ "mylife" == "yourlife" ] || [ 3 -gt 10 ];  
 then  
-echo " Condition is false. "  
+    echo " Condition is false. "  
 fi  
 
 # TRUE && FALSE || FALSE || TRUE  
 if [[ 10 -eq 10 && 5 -gt 4 || 3 -eq 4 || 3 -lt 6 ]];  
 then  
-echo "Condition is true."  
+    echo "Condition is true."  
 fi  
   
 # TRUE && FALSE || FALSE  
 if [[ 8 -eq 8 && 8 -gt 10 || 9 -lt 5 ]];  
 then  
-echo "Condition is false"  
+    echo "Condition is false"  
 fi  
